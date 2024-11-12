@@ -89,15 +89,39 @@ a:hover {
   color: #e6e6e6;
 }
 
-#hero button {
-  background-color: #d3c6b3;
-  color: #0b210d;
-  border-radius: 8px;
-  padding: 0.75rem 1.5rem;
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
-#hero button:hover {
+.view-work-button,
+.contact-button {
+  background-color: #d3c6b3;
+  color: #0b210d;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  text-align: center;
+  width: auto;
+}
+
+.view-work-button:hover,
+.contact-button:hover {
   background-color: #b5a493;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .hero-buttons {
+    flex-direction: column;
+    align-items: left;
+    width: 60%;
+  }
 }
 
 /* Chatbot Placeholder */
