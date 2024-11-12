@@ -41,3 +41,46 @@ a {
 a:hover {
   text-decoration: none;
 }
+
+/* Hero Section */
+#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 10%;
+  background-color: #fff;
+  color: #333;
+}
+
+#hero .hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+#hero .hero-text h2 {
+  font-size: 1.5rem;
+  color: #666;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#hero .hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+/* Chatbot Placeholder */
+.hero-chatbot {
+  width: 40%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  border-radius: 8px;
+  color: #666;
+  font-size: 1rem;
+  font-style: italic;
+}
