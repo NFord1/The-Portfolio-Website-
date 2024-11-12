@@ -112,9 +112,17 @@ a:hover {
   border-radius: 8px;
 }
 
+.hero-chatbot p {
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: #d3c6b3;
+}
+
 .chatbot-gif {
   width: 70%;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .chatbot-input {
@@ -130,6 +138,7 @@ a:hover {
 .chatbot-input::placeholder {
   color: #999;
 }
+
 
 /* About Section */
 #about {
