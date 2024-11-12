@@ -1,5 +1,43 @@
 import React from "react";
 
+// Import skill icons
+import javascriptIcon from '../assets/javascript.svg';
+import assemblyIcon from '../assets/assembly.svg';
+import cIcon from '../assets/c.svg';
+import cppIcon from '../assets/c++.svg';
+import cssIcon from '../assets/css.svg';
+import expressIcon from '../assets/express.svg';
+import typecriptIcon from '../assets/typescript.svg';
+import htmlIcon from '../assets/html.svg';
+import matlabIcon from '../assets/matlab.svg';
+import nodejsIcon from '../assets/nodejs.svg';
+import postgresqlIcon from '../assets/postgresql.svg';
+import pythonIcon from '../assets/python.svg';
+import rIcon from '../assets/R.svg';
+import reactIcon from '../assets/react.svg';
+import sqlIcon from '../assets/sql.svg';
+
+const skills = [
+    { name: 'JavaScript', icon: javascriptIcon},
+    { name: 'Assembly', icon: assemblyIcon},
+    { name: 'C', icon: cIcon},
+    { name: 'C++', icon: cppIcon},
+    { name: 'CSS', icon: cssIcon},
+    { name: 'Express.js', icon: expressIcon},
+    { name: 'TypeScript', icon: typecriptIcon},
+    { name: 'HTML', icon: htmlIcon},
+    { name: 'MATLAB', icon: matlabIcon},
+    { name: 'Node.js', icon: nodejsIcon},
+    { name: 'PostgreSQL', icon: postgresqlIcon},
+    { name: 'Python', icon: pythonIcon},
+    { name: 'R', icon: rIcon},
+    { name: 'React', icon: reactIcon},
+    { name: 'SQL', icon: sqlIcon},
+]
+
+
+
+
 const About = () => {
     return(
         <section id="about" style={{ padding: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
