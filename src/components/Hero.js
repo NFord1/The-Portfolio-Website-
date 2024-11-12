@@ -1,6 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
+import AIBubble from "../assets/AIBubble.gif"
 
 const Hero = () => {
+    const [inputText, setInputText] = useState('');
+
+    const handleInputChange = (event) => {
+        setInputText(event.target.value);
+    };
+
     return(
         <section id='hero' style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '2rem'}}>
             <div className='hero-text' style={{maxWidth: '50%'}}>
@@ -13,7 +20,15 @@ const Hero = () => {
             </div>
             <div className='hero-chatbot'>
                 {/*Placeholder for Chatbot*/}
-                <p>Chatbot Placeholder</p>
+                <img src={AIBubble} alt='AI Bubble' className='chatbot-gif' />
+                <input
+                    type='text'
+                    value={inputText}
+                    onChange={handleInputChange}
+                    placeholder='Type your message here...'
+                    className='chatbot-input'
+                />
+                
             </div>
         </section>
     );
