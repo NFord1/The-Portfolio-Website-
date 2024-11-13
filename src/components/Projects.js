@@ -6,9 +6,9 @@ const projectData = [
         id: 1,
         title: "Text Styler Canva App",
         description: "A Canva App that uses advanced AI to understand your design and provide suggestions for how to best style your text contents' font, colour and position within the design.",
-        techStack: ["Node.js", "Express", "MongoDB"],
+        techStack: ["React", "TypeScript", "Node.js", "Express", "Canva SDK", "OpenAI API"],
         githubLink: "https://github.com/NFord1/Text-Styler-Canva-App",
-        imageUrl: require("../assets/Project Images/Example project image.png"), // Replace with actual paths to images in assets
+        imageUrl: require("../assets/Project Images/Text Styler.png"), // Replace with actual paths to images in assets
     },
     {
         id: 2,
