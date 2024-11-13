@@ -12,7 +12,7 @@ const projectData = [
     },
     {
         id: 2,
-        title: "Real-time Chat App",
+        title: "E-commerce",
         description: "A chat application backend with WebSockets for instant communication.",
         techStack: ["Node.js", "WebSocket", "Redis"],
         githubLink: "https://github.com/yourusername/chat-app",
@@ -20,7 +20,7 @@ const projectData = [
       },
       {
         id: 3,
-        title: "Real-time Chat App",
+        title: "Budget App",
         description: "A chat application backend with WebSockets for instant communication.",
         techStack: ["Node.js", "WebSocket", "Redis"],
         githubLink: "https://github.com/yourusername/chat-app",
@@ -28,15 +28,15 @@ const projectData = [
       },
       {
         id: 4,
-        title: "Real-time Chat App",
-        description: "A chat application backend with WebSockets for instant communication.",
+        title: "Restaurant Review Site",
+        description: "A site where users can view a list of saved restaurants, add to that list, star their favorite restaurants, and leave comments about these places.",
         techStack: ["Node.js", "WebSocket", "Redis"],
         githubLink: "https://github.com/yourusername/chat-app",
-        imageUrl: require("../assets/Project Images/Example project image.png"),
+        imageUrl: require("../assets/Project Images/Restaurant Review Site.gif"),
       },
       {
         id: 5,
-        title: "Real-time Chat App",
+        title: "Portfolio Website",
         description: "A chat application backend with WebSockets for instant communication.",
         techStack: ["Node.js", "WebSocket", "Redis"],
         githubLink: "https://github.com/yourusername/chat-app",
@@ -44,7 +44,7 @@ const projectData = [
       },
       {
         id: 6,
-        title: "Real-time Chat App",
+        title: "MATLAB",
         description: "A chat application backend with WebSockets for instant communication.",
         techStack: ["Node.js", "WebSocket", "Redis"],
         githubLink: "https://github.com/yourusername/chat-app",
@@ -52,13 +52,36 @@ const projectData = [
       },
       {
         id: 7,
-        title: "Real-time Chat App",
+        title: "Python",
         description: "A chat application backend with WebSockets for instant communication.",
         techStack: ["Node.js", "WebSocket", "Redis"],
         githubLink: "https://github.com/yourusername/chat-app",
         imageUrl: require("../assets/Project Images/Example project image.png"),
       },
-      // Add more projects as needed
+      {
+        id: 8,
+        title: "C/C++",
+        description: "A chat application backend with WebSockets for instant communication.",
+        techStack: ["Node.js", "WebSocket", "Redis"],
+        githubLink: "https://github.com/yourusername/chat-app",
+        imageUrl: require("../assets/Project Images/Example project image.png"),
+      },
+      {
+        id: 9,
+        title: "Maze Solver Robot",
+        description: "A chat application backend with WebSockets for instant communication.",
+        techStack: ["Node.js", "WebSocket", "Redis"],
+        githubLink: "https://github.com/yourusername/chat-app",
+        imageUrl: require("../assets/Project Images/Example project image.png"),
+      },
+      {
+        id: 10,
+        title: "Grocery Item Tracker Robot",
+        description: "A chat application backend with WebSockets for instant communication.",
+        techStack: ["Node.js", "WebSocket", "Redis"],
+        githubLink: "https://github.com/yourusername/chat-app",
+        imageUrl: require("../assets/Project Images/Example project image.png"),
+      },
 ];
 
 const Projects = () => {
