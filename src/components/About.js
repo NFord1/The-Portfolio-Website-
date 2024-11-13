@@ -56,15 +56,14 @@ const About = () => {
                 </ul>
             </div>
 
-            <div className="skills-icons" style={{marginTop: '2rem', display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '1rem'}}>
-                {/* Replace with skill icons in the assets folder or use placeholders for now */}
-                <div className="skill-icon">JavaScript</div>
-                <div className="skill-icon">Node.js</div>
-                <div className="skill-icon">React</div>
-                <div className="skill-icon">Express.js</div>
-                <div className="skill-icon">SQL</div>
-                <div className="skill-icon">Git</div>
-                {/* Add more as needed */}
+            <div className="skills-grid" >
+                {skills.map((skill, index) => (
+                    <div key={index} className="skill-card">
+                        <img src={skill.icon} alt={`${skill.name} icon`} className="skill-icon" />
+                        <p className="skill-name">{skill.name}</p>
+                    </div>
+                ))}
+                
             </div>
         </section>
     );
