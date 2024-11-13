@@ -18,24 +18,22 @@ import reactIcon from '../assets/react.svg';
 import sqlIcon from '../assets/sql.svg';
 
 const skills = [
-    { name: 'JavaScript', icon: javascriptIcon},
-    { name: 'Assembly', icon: assemblyIcon},
-    { name: 'C', icon: cIcon},
-    { name: 'C++', icon: cppIcon},
+    { name: 'HTML', icon: htmlIcon},
     { name: 'CSS', icon: cssIcon},
     { name: 'Express.js', icon: expressIcon},
     { name: 'TypeScript', icon: typecriptIcon},
-    { name: 'HTML', icon: htmlIcon},
-    { name: 'MATLAB', icon: matlabIcon},
+    { name: 'JavaScript', icon: javascriptIcon},
     { name: 'Node.js', icon: nodejsIcon},
-    { name: 'PostgreSQL', icon: postgresqlIcon},
-    { name: 'Python', icon: pythonIcon},
-    { name: 'R', icon: rIcon},
-    { name: 'React', icon: reactIcon},
     { name: 'SQL', icon: sqlIcon},
+    { name: 'PostgreSQL', icon: postgresqlIcon},
+    { name: 'React', icon: reactIcon},
+    { name: 'Python', icon: pythonIcon},
+    { name: 'MATLAB', icon: matlabIcon},
+    { name: 'C', icon: cIcon},
+    { name: 'C++', icon: cppIcon},
+    { name: 'R', icon: rIcon},
+    { name: 'Assembly', icon: assemblyIcon},
 ]
-
-
 
 
 const About = () => {
