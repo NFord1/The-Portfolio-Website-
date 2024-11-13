@@ -42,15 +42,22 @@ const About = () => {
             <div className="about-intro" style={{ maxWidth: '70%', textAlign: 'center'}}>
                 <h2>About Me</h2>
                 <p>
-                    I'm a backend developer with a passion for building efficient and scalable solutions.
-                    With experience in Node.js, SQL and web security, I aim to create software that's not
-                    only functional but also secure and reliable.
+                    I’m a full-stack developer with a strong foundation in engineering, physics, and computer science, fueled by a passion for building exciting, practical software to solve real-world problems. 
+                    My journey began with 3.5 years studying Mechatronic Engineering and Physics at the University of Sydney, where I gained hands-on experience in problem-solving and engineering 
+                    principles. More recently, I completed a Full Stack Engineering course, which solidified my skills in web development, backend technologies, 
+                    and database management.
+                </p>
+                <p>
+                    My background has equipped me with a unique perspective on software development, allowing me to approach projects with an engineering mindset 
+                    and a strong focus on problem solving. I am enthusiastic about continuing to grow as a full-stack engineer, and I look forward to diving deeper
+                    into areas like AI and machine learning, cloud computing, and cybersecurity.
                 </p>
                 <ul>
-                    <li>Backend Technologies: Node.js, Express</li>
-                    <li>Databases: SQL, PostgreSQL</li>
-                    <li>VErsion Control: Git & GitHub</li>
-                    <li>Web Security, data Structures, and Algorithms</li>
+                    <li><strong>Backend Technologies:</strong> Node.js, Express.js</li>
+                    <li><strong>Frontend Technologies:</strong> JavaScript, React, TypeScript</li>
+                    <li><strong>Databases:</strong> SQL, PostgreSQL</li>
+                    <li><strong>Programming Languages:</strong> Python, C, C++, MATLAB, R</li>
+                    <li><strong>Additional Interests:</strong> AI/ML, Cybersecurity, Cloud Computing, IoT</li>
                 </ul>
             </div>
 
