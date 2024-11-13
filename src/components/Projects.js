@@ -4,11 +4,11 @@ import React from "react";
 const projectData = [
     {
         id: 1,
-        title: "E-commerce API",
-        description: "A REST API for managing e-commerce transactions.",
+        title: "Text Styler Canva App",
+        description: "A Canva App that uses advanced AI to understand your design and provide suggestions for how to best style your text contents' font, colour and position within the design.",
         techStack: ["Node.js", "Express", "MongoDB"],
-        githubLink: "https://github.com/yourusername/ecommerce-api",
-        imageUrl: "path/to/image1.jpg", // Replace with actual paths to images in assets
+        githubLink: "https://github.com/NFord1/Text-Styler-Canva-App",
+        imageUrl: require("../assets/Project Images/Example project image.png"), // Replace with actual paths to images in assets
     },
     {
         id: 2,
@@ -16,32 +16,72 @@ const projectData = [
         description: "A chat application backend with WebSockets for instant communication.",
         techStack: ["Node.js", "WebSocket", "Redis"],
         githubLink: "https://github.com/yourusername/chat-app",
-        imageUrl: "path/to/image2.jpg",
+        imageUrl: require("../assets/Project Images/Example project image.png"),
+      },
+      {
+        id: 3,
+        title: "Real-time Chat App",
+        description: "A chat application backend with WebSockets for instant communication.",
+        techStack: ["Node.js", "WebSocket", "Redis"],
+        githubLink: "https://github.com/yourusername/chat-app",
+        imageUrl: require("../assets/Project Images/Example project image.png"),
+      },
+      {
+        id: 4,
+        title: "Real-time Chat App",
+        description: "A chat application backend with WebSockets for instant communication.",
+        techStack: ["Node.js", "WebSocket", "Redis"],
+        githubLink: "https://github.com/yourusername/chat-app",
+        imageUrl: require("../assets/Project Images/Example project image.png"),
+      },
+      {
+        id: 5,
+        title: "Real-time Chat App",
+        description: "A chat application backend with WebSockets for instant communication.",
+        techStack: ["Node.js", "WebSocket", "Redis"],
+        githubLink: "https://github.com/yourusername/chat-app",
+        imageUrl: require("../assets/Project Images/Example project image.png"),
+      },
+      {
+        id: 6,
+        title: "Real-time Chat App",
+        description: "A chat application backend with WebSockets for instant communication.",
+        techStack: ["Node.js", "WebSocket", "Redis"],
+        githubLink: "https://github.com/yourusername/chat-app",
+        imageUrl: require("../assets/Project Images/Example project image.png"),
+      },
+      {
+        id: 7,
+        title: "Real-time Chat App",
+        description: "A chat application backend with WebSockets for instant communication.",
+        techStack: ["Node.js", "WebSocket", "Redis"],
+        githubLink: "https://github.com/yourusername/chat-app",
+        imageUrl: require("../assets/Project Images/Example project image.png"),
       },
       // Add more projects as needed
 ];
 
 const Projects = () => {
     return (
-        <section id="projects" style={{ padding: '2rem', textAlign: 'center'}}>
+        <section id="projects" >
             <h2>Projects</h2>
-            <div className="project-grid" style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1.5rem', marginTop: '2rem'}}>
+            <div className="project-grid" >
                 {projectData.map((project) => (
                     <a
                         key={project.id}
                         href={project.githubLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ textDecoration: 'none', color: 'inherit', position: 'relative', overflow: 'hidden', borderRadius: '8px'}}
+                        className="project-card"
                     >
-                        <div className="project-card" style={{ position: 'relative', cursor: "pointer"}}>
-                            <img src={project.imageUrl} alt={project.title} style={{ width: '100%', height: '100%', objectFit: 'cover'}} />
-                            <div className="project-overlay" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', backgroundColor: 'rgba(0, 0, 0, 0.5)', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', opacity: 0, transition: 'opacity o.3s ease'}}>
-                                <h3 style={{ color: '#fff', marginBottom: '0.5rem'}}>{project.title}</h3>
-                                <p style={{color: '#ddd', marginBottom: '0.5rem'}}>{project.description}</p>
-                                <p style={{ color: '#bbb', fontSize: '0.9rem' }}>{project.techStack.join(', ')}</p>
+                        <div className="project-image-container" >
+                            <img src={project.imageUrl} alt={project.title} className="project-image" />
+                            <div className="project-overlay" >
+                                <p className="project-description">{project.description}</p>
+                                <p className="project-techStack">{project.techStack.join(', ')}</p>
                             </div>
                         </div>
+                        <h3 className="project-title">{project.title}</h3>
                     </a>
                 ))}
             </div>
