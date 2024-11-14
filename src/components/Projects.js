@@ -12,9 +12,9 @@ const projectData = [
     },
     {
         id: 2,
-        title: "E-commerce",
-        description: "A chat application backend with WebSockets for instant communication.",
-        techStack: ["Node.js", "WebSocket", "Redis"],
+        title: "E-commerce Web App",
+        description: "An e-commerce web application where users can securely login, browse products, manage their cart, and complete purchases with real-time Stripe payment processing. Authenticated users can view order history and account details. This project demonstrates a RESTful API with full CRUD capabilities.",
+        techStack: ["React", "Node.js", "Express.js", "PostgreSQL", "Passport.js", "Stripe API"],
         githubLink: "https://github.com/yourusername/chat-app",
         imageUrl: require("../assets/Project Images/Example project image.png"),
       },
