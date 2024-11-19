@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import AIBubble from "../assets/AIBubble.gif"
+import AIBubbleComingSoon from "../assets/AIBubbleComingSoon.gif"
 
 const Hero = () => {
     const [inputText, setInputText] = useState('');
@@ -28,7 +29,7 @@ const Hero = () => {
                 
             </div>
             <div className='hero-chatbot'>
-                <img src={AIBubble} alt='AI Bubble' className='chatbot-gif' />
+                <img src={AIBubbleComingSoon} alt='AI Bubble' className='chatbot-gif' />
                 <p>Welcome! Curious about my projects? I’m here to guide you through my portfolio and answer any questions along the way. I'm a work in progress, but I guess for a software engineer, such is life! Let’s dive in!</p>
                 <input
                     type='text'
