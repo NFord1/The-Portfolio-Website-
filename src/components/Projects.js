@@ -1,6 +1,6 @@
 import React from "react";
 
-// Sample project data - replace with real data or use props to pass data later
+// Array containing project data
 const projectData = [
     {
         id: 1,
@@ -8,7 +8,7 @@ const projectData = [
         description: "A Canva App that uses advanced AI to understand your design and provide suggestions for how to best style your text contents' font, colour and position within the design.",
         techStack: ["React", "TypeScript", "Node.js", "Express", "Canva SDK", "OpenAI API"],
         githubLink: "https://github.com/NFord1/Text-Styler-Canva-App",
-        imageUrl: require("../assets/Project Images/Text Styler.png"), // Replace with actual paths to images in assets
+        imageUrl: require("../assets/Project Images/Text Styler.png"), 
     },
     {
         id: 2,
@@ -84,6 +84,7 @@ const projectData = [
       },
 ];
 
+// Functional component to display projects
 const Projects = () => {
     return (
         <section id="projects" >
