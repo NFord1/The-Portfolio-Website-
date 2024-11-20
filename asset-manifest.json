@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/The-Portfolio-Website-/static/css/main.5cff0be1.css",
+    "main.js": "/The-Portfolio-Website-/static/js/main.7ce1827b.js",
+    "static/js/453.aac68abc.chunk.js": "/The-Portfolio-Website-/static/js/453.aac68abc.chunk.js",
+    "static/media/Portfolio Website.gif": "/The-Portfolio-Website-/static/media/Portfolio Website.e1a7a996eff13d9bdc06.gif",
+    "static/media/AIBubble.gif": "/The-Portfolio-Website-/static/media/AIBubble.2dc08374b7a223919c40.gif",
+    "static/media/AIBubbleComingSoon.gif": "/The-Portfolio-Website-/static/media/AIBubbleComingSoon.30c5e63d756c9dfcceea.gif",
+    "static/media/Restaurant Review Site.gif": "/The-Portfolio-Website-/static/media/Restaurant Review Site.83722887435613a1201b.gif",
+    "static/media/Rocket Launch Simulation.png": "/The-Portfolio-Website-/static/media/Rocket Launch Simulation.98d7afeab01b689edf53.png",
+    "static/media/Automatic Shop Assistant.png": "/The-Portfolio-Website-/static/media/Automatic Shop Assistant.789388392ef199250373.png",
+    "static/media/Text Styler.png": "/The-Portfolio-Website-/static/media/Text Styler.292dbcc8a6c9fa9685b5.png",
+    "static/media/E-commerce Web App.gif": "/The-Portfolio-Website-/static/media/E-commerce Web App.2723180d2228c0686e56.gif",
+    "static/media/ML Pipeline.png": "/The-Portfolio-Website-/static/media/ML Pipeline.b1d5661d0959c41fdbec.png",
+    "static/media/Colour-based Object Detector.png": "/The-Portfolio-Website-/static/media/Colour-based Object Detector.ac74e5bdb07ae412fad2.png",
+    "static/media/Clustering.png": "/The-Portfolio-Website-/static/media/Clustering.70edb4c47c319771a0f1.png",
+    "static/media/Expense Tracker.png": "/The-Portfolio-Website-/static/media/Expense Tracker.5d5f435923ca206e0652.png",
+    "static/media/nodejs.svg": "/The-Portfolio-Website-/static/media/nodejs.008c660b72481b50fe97ef0c55a35088.svg",
+    "static/media/logo.png": "/The-Portfolio-Website-/static/media/logo.605980f9c2f6d8f1c4f8.png",
+    "static/media/postgresql.svg": "/The-Portfolio-Website-/static/media/postgresql.b08940403626cf1b986eb8bb9ec7ed77.svg",
+    "static/media/react.svg": "/The-Portfolio-Website-/static/media/react.0cc978f43ea437de003e85712225e83b.svg",
+    "static/media/sql.svg": "/The-Portfolio-Website-/static/media/sql.c8e44c297d9d4f450f38df95e651aedd.svg",
+    "static/media/assembly.svg": "/The-Portfolio-Website-/static/media/assembly.d00ff9bf6905c9d63877e5411de5568a.svg",
+    "static/media/c++.svg": "/The-Portfolio-Website-/static/media/c++.c2926ce8baf39e14b40727267dbfcd93.svg",
+    "static/media/matlab.svg": "/The-Portfolio-Website-/static/media/matlab.e967f3d3c046dfb53f6ef68260c39c5a.svg",
+    "static/media/typescript.svg": "/The-Portfolio-Website-/static/media/typescript.f59b0ca90862bb487ea70d054135f09f.svg",
+    "static/media/python.svg": "/The-Portfolio-Website-/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
+    "static/media/R.svg": "/The-Portfolio-Website-/static/media/R.202b99e5f9a286431fbe3e63e5ff37be.svg",
+    "static/media/express.svg": "/The-Portfolio-Website-/static/media/express.f44799058ef37b8d72355b15425f9490.svg",
+    "index.html": "/The-Portfolio-Website-/index.html",
+    "static/media/c.svg": "/The-Portfolio-Website-/static/media/c.4d943a0cb2aae0c439363d64b64f92e7.svg",
+    "static/media/css.svg": "/The-Portfolio-Website-/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/The-Portfolio-Website-/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/javascript.svg": "/The-Portfolio-Website-/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
+    "main.5cff0be1.css.map": "/The-Portfolio-Website-/static/css/main.5cff0be1.css.map",
+    "main.7ce1827b.js.map": "/The-Portfolio-Website-/static/js/main.7ce1827b.js.map",
+    "453.aac68abc.chunk.js.map": "/The-Portfolio-Website-/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cff0be1.css",
+    "static/js/main.7ce1827b.js"
+  ]
+}
